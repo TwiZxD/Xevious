@@ -1,0 +1,44 @@
+﻿  xevious.cpp
+  world.cpp
+d:\skola\gameengine\gameengine\dev\xevious\world.cpp(21): warning C4018: '<': signed/unsigned mismatch
+d:\skola\gameengine\gameengine\dev\xevious\world.cpp(52): warning C4018: '<': signed/unsigned mismatch
+d:\skola\gameengine\gameengine\dev\xevious\world.cpp(62): warning C4018: '<': signed/unsigned mismatch
+  spriteHandler.cpp
+  rocket.cpp
+  player.cpp
+  entity.cpp
+  avancezlib.cpp
+  alien.cpp
+  Generating Code...
+d:\skola\gameengine\gameengine\dev\xevious\alien.cpp(64): warning C4715: 'Alien::checkCollision': not all control paths return a value
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "public: class Sprite * __thiscall AvancezLib::createSprite(char const *)" (?createSprite@AvancezLib@@QAEPAVSprite@@PBD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_RWFromFile referenced in function "public: class Sprite * __thiscall AvancezLib::createSprite(char const *)" (?createSprite@AvancezLib@@QAEPAVSprite@@PBD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "public: class Sprite * __thiscall AvancezLib::createSprite(char const *)" (?createSprite@AvancezLib@@QAEPAVSprite@@PBD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_LoadBMP_RW referenced in function "public: class Sprite * __thiscall AvancezLib::createSprite(char const *)" (?createSprite@AvancezLib@@QAEPAVSprite@@PBD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "public: bool __thiscall AvancezLib::init(int,int,char *)" (?init@AvancezLib@@QAE_NHHPAD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_SetWindowTitle referenced in function "public: void __thiscall AvancezLib::setTitle(char *)" (?setTitle@AvancezLib@@QAEXPAD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "public: void __thiscall AvancezLib::destroy(void)" (?destroy@AvancezLib@@QAEXXZ)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "public: bool __thiscall AvancezLib::inputHandler(void)" (?inputHandler@AvancezLib@@QAE_NXZ)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_Log referenced in function "public: void __thiscall AvancezLib::destroy(void)" (?destroy@AvancezLib@@QAEXXZ)
+entity.obj : error LNK2001: unresolved external symbol _SDL_Log
+rocket.obj : error LNK2001: unresolved external symbol _SDL_Log
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_LogError referenced in function "public: class Sprite * __thiscall AvancezLib::createSprite(char const *)" (?createSprite@AvancezLib@@QAEPAVSprite@@PBD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "public: bool __thiscall AvancezLib::init(int,int,char *)" (?init@AvancezLib@@QAE_NHHPAD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function "public: class Sprite * __thiscall AvancezLib::createSprite(char const *)" (?createSprite@AvancezLib@@QAEPAVSprite@@PBD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_QueryTexture referenced in function "public: void __thiscall Sprite::draw(int,int)" (?draw@Sprite@@QAEXHH@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "public: bool __thiscall AvancezLib::init(int,int,char *)" (?init@AvancezLib@@QAE_NHHPAD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "public: bool __thiscall AvancezLib::init(int,int,char *)" (?init@AvancezLib@@QAE_NHHPAD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_RenderCopy referenced in function "public: void __thiscall Sprite::draw(int,int)" (?draw@Sprite@@QAEXHH@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "public: void __thiscall AvancezLib::update(void)" (?update@AvancezLib@@QAEXXZ)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_DestroyTexture referenced in function "public: void __thiscall Sprite::destroy(void)" (?destroy@Sprite@@QAEXXZ)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "public: void __thiscall AvancezLib::destroy(void)" (?destroy@AvancezLib@@QAEXXZ)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_GetTicks referenced in function "public: int __thiscall AvancezLib::getElapsedTime(void)" (?getElapsedTime@AvancezLib@@QAEHXZ)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "public: bool __thiscall AvancezLib::init(int,int,char *)" (?init@AvancezLib@@QAE_NHHPAD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "public: void __thiscall AvancezLib::destroy(void)" (?destroy@AvancezLib@@QAEXXZ)
+avancezlib.obj : error LNK2019: unresolved external symbol _TTF_Init referenced in function "public: bool __thiscall AvancezLib::init(int,int,char *)" (?init@AvancezLib@@QAE_NHHPAD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _TTF_OpenFont referenced in function "public: bool __thiscall AvancezLib::init(int,int,char *)" (?init@AvancezLib@@QAE_NHHPAD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _TTF_RenderText_Solid referenced in function "public: void __thiscall AvancezLib::drawText(int,int,char const *)" (?drawText@AvancezLib@@QAEXHHPBD@Z)
+avancezlib.obj : error LNK2019: unresolved external symbol _TTF_CloseFont referenced in function "public: void __thiscall AvancezLib::destroy(void)" (?destroy@AvancezLib@@QAEXXZ)
+avancezlib.obj : error LNK2019: unresolved external symbol _TTF_Quit referenced in function "public: void __thiscall AvancezLib::destroy(void)" (?destroy@AvancezLib@@QAEXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Skola\GameEngine\GameEngine\dev\Xevious\Debug\Xevious.exe : fatal error LNK1120: 28 unresolved externals
